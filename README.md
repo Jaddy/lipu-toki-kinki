@@ -13,6 +13,8 @@ License [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ---
 
+# General toki pona
+
 ## Intro's
 
 + [jan Sonja's Site](https://tokipona.org/)
