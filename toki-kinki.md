@@ -67,5 +67,5 @@
 |                                 |                          | olin sina li kamala e selo sina anu seme?" |
 |                                 | safe, sane, consentual   | nasin awen, kon nasa ala, wile sama        |
 | Ich möchte deinen Arsch ficken  | I want to fuck your butt | mi wile unpa e monsi sina                  |
-| Du darfst nicht                 | You're not allowed       | sina ken ala ...                           |
+| Du darfst nicht ...             | You're not allowed ...   | sina ken ala ...                           |
 
