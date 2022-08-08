@@ -18,6 +18,7 @@ License [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
 + [jan Sonja's Site](https://tokipona.org/)
 + Wikipedia [english](https://en.wikipedia.org/wiki/Toki_Pona), [deutsch](https://de.wikipedia.org/wiki/Toki_Pona)
 + ["The World's TINIEST Language?"](https://www.youtube.com/watch?v=E4y7tf3VJAM) - Intro on youtube
++ [Omniglot](https://omniglot.com/conscripts/tokipona.htm) - Intro, links, phrases and much more
 
 ## Other projects
 
@@ -25,6 +26,9 @@ License [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
   + [stefichjo/toki-pona](https://github.com/stefichjo/toki-pona) - Dictionaries as tables with hieroglyphs, etc.
 + [reddit](https://www.reddit.com/search/?q=toki+pona&type=sr)
   + [main toki pona group](https://www.reddit.com/r/tokipona/) plus Wiki, FAQ, links to Discord servers, etc.
++ [Toki Pona Sitelen Emoji](https://sites.google.com/view/sitelenemoji) - Toki pona words as emojis.
+  + Different solution on [Omniglot](https://omniglot.com/conscripts/sitelenemoji.htm)
+  + [codepen.io/tiencoffee/pen/NVmgxW](https://codepen.io/tiencoffee/pen/NVmgxW)
 
 ## Lessions & courses
 
