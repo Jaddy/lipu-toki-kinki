@@ -5,32 +5,51 @@
 
 ## "Fachwörter" / "technical terms" / nimi kinki
 
-| Deutsch         | English        | toki kinki                  |
-| --------------- | -------------- | --------------------------- |
-|                 | Age play       | musi (unpa) sama jan lili   |
-| (Sex) Spiel     | (Sex) Play     | musi (unpa)                 |
-| (Sex) Spielzeug | (Sex) Toy      |                             |
-| BDSM            |                |                             |
-| BDSM Gruppe     | BDSM Community | kulupu unpa nasa            |
-| Dildo           |                |                             |
-| Disziplin       | Discipline     |                             |
-| Dominanz        | Dominance      |                             |
-| Fesseln         | Bondage        |                             |
-| Kondom          | Condom         | len palisa                  |
-| Konsens         | Consent        | wile sama                   |
-| Masochismus     | Masochism      |                             |
-| Mehrschwänzige  | Flogger        |                             |
-| Nadel(spiel)    | Needle (play)  |                             |
-| Paddel          | Paddle         |                             |
-| Peitsche        | Whip           |                             |
-| Rohrstock       | Cane           | palisa? linja kiwen?        |
-| Sadismus        | Sadism         |                             |
-| Seil            |                |                             |
-| Tierrollenspiel | Pet play       | musi (unpa) sama jan soweli |
-| Unterwerfung    | Submission     |                             |
-| Oralverkehr     | oral sex       | unpa uta                    |
-| Fussfetisch     | Foot Fetish    | (unpa pi) olin noka         |
-|                 | Brat           | jan unpa li utala lili      |
+| Deutsch             | English             | toki kinki                  |
+| ------------------- | ------------------- | --------------------------- |
+|                     | Age play            | musi (unpa) sama jan lili   |
+| (Sex) Spiel         | (Sex) Play          | musi (unpa)                 |
+| (Sex) Spielzeug     | (Sex) Toy           | ilo unpa, ilo musi          |
+| BDSM                |                     |                             |
+| BDSM Gruppe         | BDSM Community      | kulupu unpa nasa            |
+| Dildo               |                     |                             |
+| Disziplin           | Discipline          |                             |
+| Dominanz            | Dominance           |                             |
+| Fesseln             | Bondage             |                             |
+| Kondom              | Condom              | len palisa                  |
+| Konsens             | Consent             | wile sama                   |
+| Masochismus         | Masochism           |                             |
+| Mehrschwänzige      | Flogger             |                             |
+| Nadel(spiel)        | Needle (play)       |                             |
+| Paddel              | Paddle              |                             |
+| Peitsche            | Whip                |                             |
+| Rohrstock           | Cane                | palisa? linja kiwen?        |
+| Sadismus            | Sadism              |                             |
+| Seil                |                     |                             |
+| Tierrollenspiel     | Pet play            | musi (unpa) sama jan soweli |
+| Unterwerfung        | Submission          |                             |
+| Oralverkehr         | oral sex            | unpa uta                    |
+| Fussfetisch         | Foot Fetish         | (unpa pi) olin noka         |
+|                     | Brat                | jan unpa li utala lili      |
+| Top                 | Top                 | jan wawa, jan pana          |
+| Bottom              | Bottom              | jan kama                    |
+| Dom(me)             | Dom(me)             | jan lawa                    |
+| Sub                 | Sub                 | jan anpa                    |
+| schlagen (verb)     | to hit              |                             |
+| fesseln (verb)      | to tie up           |                             |
+| Penis               | Penis               |                             |
+| Vulva               | Vulva               |                             |
+| Kette               | Chain               |                             |
+| Bock                |                     |                             |
+| Pranger             | Stock               |                             |
+| Play Fight          | Playfight           | musi (unpa) utala           |
+| Ring der O          | Ring of O           | sike e jan O                |
+| Polykül             | polyamorous network |                             |
+| Gruppensex          | group sex           | unpa kulupu                 |
+| Fahrschulsub        |                     |                             |
+| Servicetop          |                     |                             |
+| ficken, penetrieren | to fick, penetrate  |                             |
+
 
 ## Redewendungen / Phrases / toki kinki
 
