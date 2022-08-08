@@ -26,17 +26,21 @@ License [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
 
 + [Projects on Github](https://github.com/search?q=toki+pona)
   + [stefichjo/toki-pona](https://github.com/stefichjo/toki-pona) - Dictionaries as tables with hieroglyphs, etc.
+  + [kilipan/nasin-toki](https://github.com/kilipan/nasin-toki) - another intro with lessons, grammar, etc.
 + [reddit](https://www.reddit.com/search/?q=toki+pona&type=sr)
   + [main toki pona group](https://www.reddit.com/r/tokipona/) plus Wiki, FAQ, links to Discord servers, etc.
++ [Robbie Antenesse's "ku" dictionary](https://robbie.antenesse.net/tokipona/)
 + [Toki Pona Sitelen Emoji](https://sites.google.com/view/sitelenemoji) - Toki pona words as emojis.
   + Different solution on [Omniglot](https://omniglot.com/conscripts/sitelenemoji.htm)
   + [codepen.io/tiencoffee/pen/NVmgxW](https://codepen.io/tiencoffee/pen/NVmgxW)
 
-## Lessions & courses
+## Lessons & courses
 
 + [dev/urandom](https://devurandom.xyz/tokipona/)
   + [Google docs version](https://docs.google.com/document/d/1uZ-OqpATrjJwCRRvKLEoT16mphES4Id_za_gHmrtEQ4/edit?usp=sharing)
 + ["what is toki pona?"](https://www.youtube.com/watch?v=2EZihKCB9iw) - 12 lessons on youtube by [ja Misali](https://www.youtube.com/c/HBMmaster)
++ [Grammer in-depth](https://github.com/ae-dschorsaanjo/lipu-lili-pi-toki-pona/blob/master/grammar.md) - Very good, detailed intro into toki pona grammar. See also the other pages of the project.
++ ["toki pona in 76 illustrated lessons"](https://aiki.pbworks.com/f/tp+in+76+lessons+English.pdf)
 
 ## Apps
 
