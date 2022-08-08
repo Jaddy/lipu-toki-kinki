@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toki Pona Cheat Sheet v2a md.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="toki-pona">Toki Pona</h1>
+<p>Toki Pona is a language developed by linguist Sonja Lang, with only 137 words.</p>
+<p>This side describes the entire grammar, the other side contains the entire vocabulary.</p>
+<p>This version is based on v2 by jan Sa (Discord: Green Guy#5294), CC0.</p>
+<p>Original by <a href="https://blinry.org/toki-pona-cheat-sheet/">blinry</a>.</p>
+<p>This version uses both <em>Toki Pona: The Language of Good</em> and <em>Toki Pona Dictionary</em> as its bases.</p>
+<h2 id="alphabet">Alphabet</h2>
+<p>Toki Pona uses these letters: <code>a e i j k l m n o p s t u w</code></p>
+<p>You can base them on their sounds in the IPA, but pronunciation doesn’t matter.</p>
+<h2 id="basic-sentences">Basic sentences</h2>
+<p>The particle <em>li</em> separates the subject from the predicate.</p>
+<p><em>soweli li moku</em> – The cat is eating.</p>
+<p><em>jan li lape</em> – Someone is sleeping.</p>
+<p>There is no verb “to be.”</p>
+<p>The part after <em>li</em> can be a noun or an adjective.</p>
+<p><em>kili li moku</em> – Fruits are food.</p>
+<p><em>telo li pona</em> – Water is good.</p>
+<p><em>telo li moku</em> – Water is a drink.</p>
+<p>If the subject is <em>mi</em> or <em>sina</em> alone, the <em>li</em> is always omitted.</p>
+<p><em>mi moku</em> – I eat.</p>
+<p><em>sina pona</em> – You are good.</p>
+<h2 id="ambiguity">Ambiguity</h2>
+<p>Toki Pona has ambiguity built into the language. You’ll need proper context to understand the intended meaning of a sentence. Verbs have no set tense.</p>
+<p><em>mi moku</em> – I am eating / I was eating / I will be eating.</p>
+<p>Many words have multiple or general meanings.</p>
+<p><em>soweli</em> – cat / dog / (any land mammal)</p>
+<p><em>kili</em> - (any fruit or vegetable)</p>
+<p>Most words can act as nouns, verbs, adjectives, or adverbs.</p>
+<p><em>telo</em> – water / wet / to wash</p>
+<p><em>pona</em> - good, simple / to improve, to make better / well, greatly</p>
+<p>Nouns have no singular/plural, and no definite/indefinite article:</p>
+<p><em>kili</em> – a fruit / the fruit / some fruits / the fruits</p>
+<h2 id="direct-objects">Direct objects</h2>
+<p>The particle <em>e</em> separates a verb from its direct object.</p>
+<p><em>soweli li moku e telo</em> – The animal drinks the water.</p>
+<p><em>mi telo e soweli</em> – I wash the cat.</p>
+<h2 id="modifying-words">Modifying words</h2>
+<p>Words can be modified by appending other words.</p>
+<p><em>jan lili</em> – small person, child</p>
+<p><em>tomo mi</em> – my house</p>
+<p><em>pilin pona</em> – a good feeling</p>
+<p>To negate a word, append <em>ala</em>:</p>
+<p><em>mi lape ala</em> – I’m not sleeping.</p>
+<p><em>jan ala li toki</em> – No one is talking.</p>
+<p>With multiple modifiers, they all modify the first word.</p>
+<p><em>lipu kasi tu</em> – two plant documents</p>
+<p><em>poki laso pimeja</em> – a blue and black box</p>
+<p>You can change the way the modifiers interact using <em>pi</em>.</p>
+<p><em>lipu pi kasi tu</em> – a document of two plants</p>
+<p><em>poki pi laso pimeja</em> – a dark-blue box</p>
+<h2 id="prepositions">Prepositions</h2>
+<p><em>kepeken</em>, <em>lon</em>, <em>sama</em>, <em>tan</em>, and <em>tawa</em> can act as prepositions. They go at the end of a sentence.</p>
+<p><em>mi moku kepeken ilo</em> – I eat with cutlery.</p>
+<p><em>soweli li lon tomo</em> – The animal is in the house.</p>
+<p><em>sina toki sama kala!</em> – You talk like a fish!</p>
+<p><em>mi kama tan esun</em> – I arrive from the store.</p>
+<p><em>ona li toki tawa sina</em> – They’re talking to you.</p>
+<h2 id="and">“And”</h2>
+<p>There are many ways to say “and.” With subjects you use <em>en</em>.</p>
+<p><em>mi en sina li musi mute</em> – You and I are playing a lot.</p>
+<p>With predicates you repeat <em>li</em>.</p>
+<p><em>soweli ni li lili li suwi</em> – This animal is small and cute.</p>
+<p>With direct objects you repeat <em>e</em>.</p>
+<p><em>ona li jo e waso e kala</em> –She has a bird and a fish.</p>
+<p>With prepositions you repeat the preposition.</p>
+<p><em>mi pali e tomo kepeken palisa kepeken kiwen</em> – I make the house using sticks and stones.</p>
+<h2 id="loaned-adjectives">Loaned Adjectives</h2>
+<p>Toki Pona does not use proper nouns, but rather proper adjectives:</p>
+<p><em>jan Sonja</em> – a Sonja person, a person named Sonja</p>
+<p><em>toki Tosi</em> – a Tosi (Deutsch) language, German</p>
+<p><em>ma Mewika li suli</em> – The US is big.</p>
+<p>Loaned adjectives must follow Toki Pona’s phonology. Toki Pona uses a (C)V(N) syllable structure. The C can only be one consonant. Vowel clusters, consonant clusters, and the sequences <em>wu</em>, <em>wo</em>, <em>ji</em>, <em>ti</em>, <em>nm</em>, and <em>nn</em> are disallowed.</p>
+<h2 id="o">o</h2>
+<p>You can use <em>o</em> before a verb to turn it into a command.</p>
+<p><em>o kute!</em> – Listen!</p>
+<p><em>o pali</em> – Work, please.</p>
+<p>You can use <em>o</em> after a subject to address that subject.</p>
+<p><em>jan Pape o!</em> – O Pape!</p>
+<p>You can have <em>o</em> between a subject and predicate to express a wish, desire, request, etc.</p>
+<p><em>pona o tawa sina</em> – I wish for goodness to go to you.</p>
+<p><em>mi o pali</em> – I should be working.</p>
+<p>Or it can also be a contraction of the first two uses.</p>
+<p><em>soweli Ton o moku</em> – Eat, Ton.</p>
+<h2 id="questions">Questions</h2>
+<p>There are two ways to form yes or no questions. The first way is “word <em>ala</em> word.”</p>
+<p><em>sina moku ala moku?</em> – Are you eating?</p>
+<p>To say yes, repeat the verb. To say no, say “verb <em>ala</em>” or “<em>ala</em>”.</p>
+<p><em>moku</em> – yes</p>
+<p><em>moku ala</em> / <em>ala</em> – no</p>
+<p>You can also append “<em>anu seme</em>”.</p>
+<p><em>sina moku anu seme?</em> – Are you eating or what?</p>
+<p>A common way to answer yes to these kinds of questions is with <em>lon</em> (meaning “true” or “affirmative”).</p>
+<p>seme can also be used to create nonpolar questions. Replace the word in question with <em>seme</em>.</p>
+<p><em>jan seme li toki?</em> – Who’s talking?</p>
+<p><em>sina pali e seme?</em> – What are you making?</p>
+<h2 id="preverbs">Preverbs</h2>
+<p>Preverbs go before verbs to modify their meaning.</p>
+<p><em>mi kama sona</em> – I come to know.</p>
+<p><em>waso lili li wile suli</em> – The small bird wants to be big.</p>
+<p>The words that can act as preverbs are <em>wile</em>, <em>kama</em>, <em>sona</em>, <em>lukin</em>, <em>ken</em>, <em>awen</em>, and sometimes <em>alasa</em>, <em>open</em>, and <em>pini</em>.</p>
+<h2 id="context">Context</h2>
+<p><em>la</em> can be used to mark the context of a sentence. X <em>la</em> Y means “In the context of X, Y.”</p>
+<p><em>sina lon poka mi la mi pilin pona</em> – When you are by my side, I feel good.</p>
+<p>Most prepositional terms can be moved behind a <em>la</em>.</p>
+<p><em>mi lape lon tenpo pimeja</em>. <em>tenpo pimeja la mi lape</em>. – I sleep at night.</p>
+<p><em>sina seli tan seme</em>? <em>tan seme la sina seli</em>? – Why are you hot?</p>
+<h2 id="numbers">Numbers</h2>
+<p>Combine number words to add them up.</p>
+<p><em>wan</em> – 1. <em>tu</em> – 2. <em>luka</em> – 5. <em>tu tu</em> – 4. <em>luka tu wan</em> - 8</p>
+<p>nanpa can be used to mark ordinals.</p>
+<p><em>jan nanpa wan li pona</em> – The first person is good.</p>
+<p><strong>And... that’s it!</strong></p>
+<hr>
+<h2 id="vocabulary---lipu-nimi-e-toki-pona">Vocabulary - lipu nimi e toki pona</h2>
+<table>
+<thead>
+<tr>
+<th>word</th>
+<th>type</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>PART</td>
+<td>(emphasis, emotion or confirmation)</td>
+</tr>
+<tr>
+<td>akesi</td>
+<td>NOUN</td>
+<td>non-cute animal; reptile, amphibian</td>
+</tr>
+<tr>
+<td>ala</td>
+<td>ADJ</td>
+<td>no, not, none</td>
+</tr>
+<tr>
+<td></td>
+<td>NUM</td>
+<td>zero, 0</td>
+</tr>
+<tr>
+<td>alasa</td>
+<td>VERB</td>
+<td>to hunt, forage</td>
+</tr>
+<tr>
+<td>ale / ali</td>
+<td>ADJ</td>
+<td>all; abundant, countless, bountiful, every, plentiful</td>
+</tr>
+<tr>
+<td></td>
+<td>NOUN</td>
+<td>abundance, everything, life, universe</td>
+</tr>
+<tr>
+<td></td>
+<td>NUM</td>
+<td>100</td>
+</tr>
+<tr>
+<td>anpa</td>
+<td>ADJ</td>
+<td>bowing down, downward, humble, lowly, dependent</td>
+</tr>
+<tr>
+<td>ante</td>
+<td>ADJ</td>
+<td>different, altered, changed, other</td>
+</tr>
+<tr>
+<td>anu</td>
+<td>PART</td>
+<td>or</td>
+</tr>
+<tr>
+<td>awen</td>
+<td>ADJ</td>
+<td>enduring, kept, protected, safe, waiting, staying</td>
+</tr>
+<tr>
+<td></td>
+<td>PREV</td>
+<td>to continue to</td>
+</tr>
+<tr>
+<td>e</td>
+<td>PART</td>
+<td>(before the direct object)</td>
+</tr>
+<tr>
+<td>en</td>
+<td>PART</td>
+<td>(between multiple subjects)</td>
+</tr>
+<tr>
+<td>*epiku</td>
+<td>ADJ</td>
+<td>epic, awesome</td>
+</tr>
+<tr>
+<td>esun</td>
+<td>NOUN</td>
+<td>market, shop, fair, bazaar, business transaction</td>
+</tr>
+<tr>
+<td>ijo</td>
+<td>NOUN</td>
+<td>thing, phenomenon, object, matter</td>
+</tr>
+<tr>
+<td>ike</td>
+<td>ADJ</td>
+<td>bad, negative; non-essential, irrelevant</td>
+</tr>
+<tr>
+<td>ilo</td>
+<td>NOUN</td>
+<td>tool, implement, machine, device</td>
+</tr>
+<tr>
+<td>insa</td>
+<td>NOUN</td>
+<td>centre, content, inside, between; internal organ, stomach</td>
+</tr>
+<tr>
+<td>jaki</td>
+<td>ADJ</td>
+<td>disgusting, obscene, sickly, toxic, unclean, unsanitary</td>
+</tr>
+<tr>
+<td>jan</td>
+<td>NOUN</td>
+<td>human being, person, somebody</td>
+</tr>
+<tr>
+<td>*jasima</td>
+<td>NOUN</td>
+<td>mirror, reflection</td>
+</tr>
+<tr>
+<td></td>
+<td>VERB</td>
+<td>reflect</td>
+</tr>
+<tr>
+<td>jelo</td>
+<td>ADJ</td>
+<td>yellow, yellowish</td>
+</tr>
+<tr>
+<td>jo</td>
+<td>VERB</td>
+<td>to have, carry, contain, hold</td>
+</tr>
+<tr>
+<td>kala</td>
+<td>NOUN</td>
+<td>fish, marine animal, sea creature</td>
+</tr>
+<tr>
+<td>kalama</td>
+<td>VERB</td>
+<td>to produce a sound; recite, utter aloud</td>
+</tr>
+<tr>
+<td></td>
+<td>NOUN</td>
+<td>sound, noise</td>
+</tr>
+<tr>
+<td>kama</td>
+<td>ADJ</td>
+<td>arriving, coming, future, summoned</td>
+</tr>
+<tr>
+<td></td>
+<td>PREV</td>
+<td>to become, manage to, succeed in</td>
+</tr>
+<tr>
+<td>kasi</td>
+<td>NOUN</td>
+<td>plant, vegetation; herb, leaf</td>
+</tr>
+<tr>
+<td>ken</td>
+<td>PREV</td>
+<td>to be able to, be allowed to, can, may</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>possible</td>
+</tr>
+<tr>
+<td>kepeken</td>
+<td>PREP</td>
+<td>to use, with, by means of</td>
+</tr>
+<tr>
+<td>**kijetesantakalu</td>
+<td>NOUN</td>
+<td>Musteloids, such santakalu as racoon</td>
+</tr>
+<tr>
+<td>kili</td>
+<td>NOUN</td>
+<td>fruit, vegetable, mushroom</td>
+</tr>
+<tr>
+<td>*kin</td>
+<td></td>
+<td>also, too</td>
+</tr>
+<tr>
+<td>*kipisi</td>
+<td>VERB</td>
+<td>to cut, divide</td>
+</tr>
+<tr>
+<td>kiwen</td>
+<td>NOUN</td>
+<td>hard object, metal, rock, stone</td>
+</tr>
+<tr>
+<td>ko</td>
+<td>NOUN</td>
+<td>clay, clinging form, dough, semi-solid, paste, powder</td>
+</tr>
+<tr>
+<td>**kokosila</td>
+<td>VERB</td>
+<td>to speak a language where toki pona ist more appropriate</td>
+</tr>
+<tr>
+<td>kon</td>
+<td>NOUN</td>
+<td>air, breath; essence, spirit; hidden reality, unseen agent</td>
+</tr>
+<tr>
+<td>*ku</td>
+<td>VERB</td>
+<td>interacting with <em>Toki Pona Dictionary</em></td>
+</tr>
+<tr>
+<td>kule</td>
+<td>ADJ</td>
+<td>colourful, pigmented, painted</td>
+</tr>
+<tr>
+<td>kulupu</td>
+<td>NOUN</td>
+<td>community, company, group, nation, society, tribe</td>
+</tr>
+<tr>
+<td>kute</td>
+<td>NOUN</td>
+<td>ear</td>
+</tr>
+<tr>
+<td></td>
+<td>VERB</td>
+<td>to hear, listen; pay attention to, obey</td>
+</tr>
+<tr>
+<td>la</td>
+<td>PART</td>
+<td>(between the context phrase and the main sentence)</td>
+</tr>
+<tr>
+<td>*lanpan</td>
+<td>VERB</td>
+<td>get, seize, steal</td>
+</tr>
+<tr>
+<td>lape</td>
+<td>ADJ</td>
+<td>sleeping, resting</td>
+</tr>
+<tr>
+<td>laso</td>
+<td>ADJ</td>
+<td>blue, green</td>
+</tr>
+<tr>
+<td>lawa</td>
+<td>NOUN</td>
+<td>head, mind</td>
+</tr>
+<tr>
+<td></td>
+<td>VERB</td>
+<td>to control, direct, guide, lead, own, plan, regulate, rule</td>
+</tr>
+<tr>
+<td>*leko</td>
+<td>NOUN</td>
+<td>square, block</td>
+</tr>
+<tr>
+<td>len</td>
+<td>NOUN</td>
+<td>cloth, clothing, fabric, textile; cover, layer of privacy</td>
+</tr>
+<tr>
+<td>lete</td>
+<td>ADJ</td>
+<td>cold, cool; uncooked, raw</td>
+</tr>
+<tr>
+<td>li</td>
+<td>PART</td>
+<td>(between any subject except mi alone or sina alone and its verb; also to introduce a new verb for the same subject)</td>
+</tr>
+<tr>
+<td>lili</td>
+<td>ADJ</td>
+<td>little, small, short; few; a bit; young</td>
+</tr>
+<tr>
+<td>linja</td>
+<td>NOUN</td>
+<td>long and flexible thing; cord, hair, rope, thread, yarn</td>
+</tr>
+<tr>
+<td>lipu</td>
+<td>NOUN</td>
+<td>flat object; book, document, card, paper, record, website</td>
+</tr>
+<tr>
+<td>loje</td>
+<td>ADJ</td>
+<td>red, reddish</td>
+</tr>
+<tr>
+<td>lon</td>
+<td>PREP</td>
+<td>located at, present at, real, true, existing</td>
+</tr>
+<tr>
+<td>luka</td>
+<td>NOUN</td>
+<td>arm, hand, tactile organ NUM five</td>
+</tr>
+<tr>
+<td>lukin</td>
+<td>VERB</td>
+<td>to look at, see, examine, observe, read, watch</td>
+</tr>
+<tr>
+<td></td>
+<td>PREV</td>
+<td>to seek, look for, try to</td>
+</tr>
+<tr>
+<td>lupa</td>
+<td>NOUN</td>
+<td>door, hole, orifice, window</td>
+</tr>
+<tr>
+<td>ma</td>
+<td>NOUN</td>
+<td>earth, land; outdoors, world; country, territory; soil</td>
+</tr>
+<tr>
+<td>mama</td>
+<td>NOUN</td>
+<td>parent, ancestor; creator, originator; caretaker, sustainer</td>
+</tr>
+<tr>
+<td>mani</td>
+<td>NOUN</td>
+<td>money, cash, savings, wealth; large domesticated animal</td>
+</tr>
+<tr>
+<td>meli</td>
+<td>NOUN</td>
+<td>woman, female, feminine person; wife</td>
+</tr>
+<tr>
+<td>*meso</td>
+<td>NOUN</td>
+<td>avaerage, middle</td>
+</tr>
+<tr>
+<td>mi</td>
+<td>NOUN</td>
+<td>I, me, we, us</td>
+</tr>
+<tr>
+<td>mije</td>
+<td>NOUN</td>
+<td>man, male, masculine person; husband</td>
+</tr>
+<tr>
+<td>*misikeke</td>
+<td>NOUN</td>
+<td>medicine, drug</td>
+</tr>
+<tr>
+<td>moku</td>
+<td>VERB</td>
+<td>to eat, drink, consume, swallow, ingest</td>
+</tr>
+<tr>
+<td>moli</td>
+<td>ADJ</td>
+<td>dead, dying</td>
+</tr>
+<tr>
+<td>monsi</td>
+<td>NOUN</td>
+<td>back, behind, rear</td>
+</tr>
+<tr>
+<td>*monsuta</td>
+<td>NOUN</td>
+<td>fear, monster</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>scary</td>
+</tr>
+<tr>
+<td>mu</td>
+<td>PART</td>
+<td>(animal noise or communication)</td>
+</tr>
+<tr>
+<td>mun</td>
+<td>NOUN</td>
+<td>moon, night sky object, star</td>
+</tr>
+<tr>
+<td>musi</td>
+<td>ADJ</td>
+<td>artistic, entertaining, frivolous, playful, recreational, fun</td>
+</tr>
+<tr>
+<td>mute</td>
+<td>ADJ</td>
+<td>many, a lot, more, much, several, very NOUN</td>
+</tr>
+<tr>
+<td>*n</td>
+<td>NOUN</td>
+<td>hmm, uhh</td>
+</tr>
+<tr>
+<td>*namako</td>
+<td>NOUN</td>
+<td>spice, additional</td>
+</tr>
+<tr>
+<td>nanpa</td>
+<td>PART</td>
+<td>-th (ordinal number)</td>
+</tr>
+<tr>
+<td></td>
+<td>NOUN</td>
+<td>numbers</td>
+</tr>
+<tr>
+<td>nasa</td>
+<td>ADJ</td>
+<td>unusual, strange; foolish, crazy; drunk, intoxicated</td>
+</tr>
+<tr>
+<td>nasin</td>
+<td>NOUN</td>
+<td>way, custom, doctrine, method, path, road</td>
+</tr>
+<tr>
+<td>nena</td>
+<td>NOUN</td>
+<td>bump, button, hill, mountain, nose, protuberance</td>
+</tr>
+<tr>
+<td>ni</td>
+<td>ADJ</td>
+<td>that, this</td>
+</tr>
+<tr>
+<td>nimi</td>
+<td>NOUN</td>
+<td>name, word</td>
+</tr>
+<tr>
+<td>noka</td>
+<td>NOUN</td>
+<td>foot, leg, organ of locomotion; bottom, lower part</td>
+</tr>
+<tr>
+<td>o</td>
+<td>PART</td>
+<td>hey! O! (vocative or imperative)</td>
+</tr>
+<tr>
+<td>*oko</td>
+<td>NOUN</td>
+<td>eye</td>
+</tr>
+<tr>
+<td>olin</td>
+<td>VERB</td>
+<td>to love, have compassion for, respect, show affection to</td>
+</tr>
+<tr>
+<td>ona</td>
+<td>NOUN</td>
+<td>he, she, it, they</td>
+</tr>
+<tr>
+<td>open</td>
+<td>VERB</td>
+<td>to begin, start; open; turn on</td>
+</tr>
+<tr>
+<td>pakala</td>
+<td>ADJ</td>
+<td>botched, broken, damaged, harmed, messed up</td>
+</tr>
+<tr>
+<td></td>
+<td>PHRASE</td>
+<td>pakala a! - damn! (curse)</td>
+</tr>
+<tr>
+<td>pali</td>
+<td>VERB</td>
+<td>to do, take action on, work on; build, make, prepare</td>
+</tr>
+<tr>
+<td>palisa</td>
+<td>NOUN</td>
+<td>long hard thing; branch, rod, stick</td>
+</tr>
+<tr>
+<td>pan</td>
+<td>NOUN</td>
+<td>cereal, grain; barley, corn, oat, rice, wheat; bread, pasta</td>
+</tr>
+<tr>
+<td>pana</td>
+<td>VERB</td>
+<td>to give, send, emit, provide, put, release</td>
+</tr>
+<tr>
+<td>pi</td>
+<td>PART</td>
+<td>of (regroup modifier)</td>
+</tr>
+<tr>
+<td>pilin</td>
+<td>NOUN</td>
+<td>heart (physical or emotional)</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>feeling (an emotion, a direct experience)</td>
+</tr>
+<tr>
+<td>pimeja</td>
+<td>ADJ</td>
+<td>black, dark, unlit</td>
+</tr>
+<tr>
+<td>pini</td>
+<td>ADJ</td>
+<td>ago, completed, ended, finished, past, end</td>
+</tr>
+<tr>
+<td>pipi</td>
+<td>NOUN</td>
+<td>bug, insect, ant, spider</td>
+</tr>
+<tr>
+<td>poka</td>
+<td>NOUN</td>
+<td>hip, side; next to, nearby, vicinity</td>
+</tr>
+<tr>
+<td>poki</td>
+<td>NOUN</td>
+<td>container, bag, bowl, box, cup, cupboard, drawer, vessel</td>
+</tr>
+<tr>
+<td>pona</td>
+<td>ADJ</td>
+<td>good, positive, useful; friendly, peaceful; simple</td>
+</tr>
+<tr>
+<td>pu</td>
+<td>ADJ</td>
+<td>interacting with the official Toki Pona book</td>
+</tr>
+<tr>
+<td>sama</td>
+<td>ADJ</td>
+<td>same, similar; each other; sibling, peer, fellow</td>
+</tr>
+<tr>
+<td></td>
+<td>PREP</td>
+<td>as, like</td>
+</tr>
+<tr>
+<td>seli</td>
+<td>ADJ</td>
+<td>fire; cooking element, chemical reaction, heat source</td>
+</tr>
+<tr>
+<td>selo</td>
+<td>NOUN</td>
+<td>outer form, outer layer; bark, peel, shell, skin; boundary</td>
+</tr>
+<tr>
+<td>seme</td>
+<td>PART</td>
+<td>what? which?</td>
+</tr>
+<tr>
+<td>sewi</td>
+<td>NOUN</td>
+<td>area above, highest part, something elevated ADJ</td>
+</tr>
+<tr>
+<td>sijelo</td>
+<td>NOUN</td>
+<td>body (of person or animal), physical state, torso</td>
+</tr>
+<tr>
+<td>sike</td>
+<td>NOUN</td>
+<td>round or circular thing; ball, circle, cycle, sphere, wheel</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>(sike suno) of one year</td>
+</tr>
+<tr>
+<td>sin</td>
+<td>ADJ</td>
+<td>new, fresh, another</td>
+</tr>
+<tr>
+<td>sina</td>
+<td>NOUN</td>
+<td>you</td>
+</tr>
+<tr>
+<td>sinpin</td>
+<td>NOUN</td>
+<td>face, foremost, front, wall</td>
+</tr>
+<tr>
+<td>sitelen</td>
+<td>NOUN</td>
+<td>image, picture, representation, symbol, mark, writing</td>
+</tr>
+<tr>
+<td>*soko</td>
+<td>NOUN</td>
+<td>mushroom</td>
+</tr>
+<tr>
+<td>sona</td>
+<td>VERB</td>
+<td>to know, be skilled in, be wise about, have information on</td>
+</tr>
+<tr>
+<td></td>
+<td>NOUN</td>
+<td>info, wisdom, knowledge</td>
+</tr>
+<tr>
+<td></td>
+<td>PREV</td>
+<td>to know how to</td>
+</tr>
+<tr>
+<td>soweli</td>
+<td>NOUN</td>
+<td>animal, beast, land mammal</td>
+</tr>
+<tr>
+<td>suli</td>
+<td>ADJ</td>
+<td>big, heavy, large, long, tall; important; adult</td>
+</tr>
+<tr>
+<td>suno</td>
+<td>NOUN</td>
+<td>sun; light, brightness, glow, radiance, shine; light source</td>
+</tr>
+<tr>
+<td>supa</td>
+<td>NOUN</td>
+<td>horizontal surface, thing to put or rest something on</td>
+</tr>
+<tr>
+<td>suwi</td>
+<td>ADJ</td>
+<td>sweet, fragrant; cute, innocent, adorable</td>
+</tr>
+<tr>
+<td>tan</td>
+<td>PREP</td>
+<td>by, from, because of</td>
+</tr>
+<tr>
+<td>taso</td>
+<td>PART</td>
+<td>but, however</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>only, (wan taso) alone</td>
+</tr>
+<tr>
+<td>tawa</td>
+<td>PREP</td>
+<td>going to, toward; for; from the perspective of</td>
+</tr>
+<tr>
+<td></td>
+<td>ADJ</td>
+<td>moving</td>
+</tr>
+<tr>
+<td>telo</td>
+<td>NOUN</td>
+<td>water, liquid, fluid, wet substance; beverage</td>
+</tr>
+<tr>
+<td></td>
+<td>VERB</td>
+<td>wash, to water</td>
+</tr>
+<tr>
+<td>tenpo</td>
+<td>NOUN</td>
+<td>time, duration, moment, occasion, period, situation</td>
+</tr>
+<tr>
+<td>toki</td>
+<td>VERB</td>
+<td>to communicate, say, speak, say, talk, use language, think</td>
+</tr>
+<tr>
+<td>*tonsi</td>
+<td>NOUN</td>
+<td>non-binary, trans , gendernonconforming</td>
+</tr>
+<tr>
+<td>tomo</td>
+<td>NOUN</td>
+<td>indoor space; building, home, house, room, structure</td>
+</tr>
+<tr>
+<td>tu</td>
+<td>NUM</td>
+<td>two</td>
+</tr>
+<tr>
+<td>unpa</td>
+<td>VERB</td>
+<td>sex, to have sexual / marital relations with</td>
+</tr>
+<tr>
+<td>uta</td>
+<td>NOUN</td>
+<td>mouth, lips, oral cavity, jaw</td>
+</tr>
+<tr>
+<td>utala</td>
+<td>VERB</td>
+<td>to battle, challenge, compete against, struggle against</td>
+</tr>
+<tr>
+<td>walo</td>
+<td>ADJ</td>
+<td>white, whitish; light-coloured, pale</td>
+</tr>
+<tr>
+<td>wan</td>
+<td>ADJ</td>
+<td>unique, united</td>
+</tr>
+<tr>
+<td></td>
+<td>NUM</td>
+<td>one</td>
+</tr>
+<tr>
+<td>waso</td>
+<td>NOUN</td>
+<td>bird, flying creature, winged animal</td>
+</tr>
+<tr>
+<td>wawa</td>
+<td>ADJ</td>
+<td>strong, powerful; confident, sure; energetic, intense</td>
+</tr>
+<tr>
+<td>weka</td>
+<td>ADJ</td>
+<td>absent, away, ignored</td>
+</tr>
+<tr>
+<td>wile</td>
+<td>PREV</td>
+<td>must, need, require, should, want, wish</td>
+</tr>
+</tbody>
+</table>
+<p>* These unofficial words have been marked as significant by the <em>Toki Pona Dictionary</em>, but do not appear in <em>Toki Pona: the Language of Good</em>. They are included here for lookup purposes, but you don’t have to use them.</p>
+<p>** this word is a common joke word, not intended for serious use.</p>
+
+</body>
+</html>
