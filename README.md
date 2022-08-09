@@ -13,7 +13,7 @@ Feel free to copy, contribute, whatever.
 
 + [General resources & links](resources.md)
 + [kinky dictionary in the making](toki-kinki.md)
-+ Cheat sheet [small](Cheat%20Sheet%20large/README.md) (2-page) and [large](Cheat%20Sheet%20large/README.md) (12+ page) with sources and PDF.
++ Cheat sheet [small](Cheat%20Sheet%20large/) (2-page) and [large](Cheat%20Sheet%20large/) (12+ page) with sources and PDF.
 
 ---
 
