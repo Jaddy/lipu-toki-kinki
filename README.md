@@ -1,13 +1,15 @@
 # lipu-toki-kinki
 pali e lipu nimi pi toki kinki - creating a toki pona dictionary for kinky topics
 
-[toki pona](https://tokipona.org/) is a nice and small conlang to think about things from a personal perspective, and also useful as a meta language.
+[toki pona](https://tokipona.org/) is a nice and small [conlang](https://en.wikipedia.org/wiki/Constructed_language) to think about things from a personal perspective, and also useful as a meta language.
 
 This project aims at creating a dictionary of kinky (and queer) words and phrases. Language is mostly english and occasionaly german.
 
 Feel free to copy, contribute, whatever.
 
 ---
+
+## Contents
 
 + [General resources & links](resources.md)
 + [kinky dictionary in the making](toki-kinki.md)
