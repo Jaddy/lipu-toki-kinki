@@ -1,7 +1,7 @@
 # toki Tosi en toki Inli tawa toki kinki
-(Wörter und Redewendungen von deutsch oder englisch -> kinki toki pona)
+(BDSM und queere Wörter und Redewendungen von deutsch oder englisch -> kinki toki pona)
 
-(Words and phrases in german or english -> kinki toki pona)
+(BDSM and queer words and phrases in german or english -> kinki toki pona)
 
 Vorschläge willkommen / suggestions welcome / sona tawa ken toki ni li pona.
 
