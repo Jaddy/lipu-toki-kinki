@@ -10,11 +10,14 @@ Vorschläge willkommen / suggestions welcome / sona tawa ken toki ni li pona.
 | Deutsch             | English               | toki kinki                  |
 | ------------------- | --------------------- | --------------------------- |
 |                     | Brat                  | jan unpa li utala lili      |
+| (sich) unterwerfend | submissive, to submit |                             |
 | Altersspiel         | Age play              | musi (unpa) sama jan lili   |
 | BDSM                | BDSM                  |                             |
 | BDSM Gruppe         | BDSM Community        | kulupu unpa nasa            |
+| bestrafen           | punish                |                             |
 | Bock                |                       |                             |
 | Bottom              | Bottom                | jan kama                    |
+| Brust               | Breast(s)             | nena mama (meli)            |
 | Dildo               | Dildo                 |                             |
 | Disziplin           | Discipline            |                             |
 | Dom(me)             | Dom(me)               | jan lawa                    |
@@ -47,15 +50,14 @@ Vorschläge willkommen / suggestions welcome / sona tawa ken toki ni li pona.
 | schlagen (verb)     | to hit                |                             |
 | Seil                |                       |                             |
 | Servicetop          |                       |                             |
+| Sklav*in            | Slave                 | jan ijo, jan ilo            |
 | Spiel (Sex-)        | (Sex) Play            | musi (unpa)                 |
 | Spielzeug (Sex-)    | (Sex) Toy             | ilo unpa, ilo musi          |
 | Sub (Person)        | Sub (person)          | jan anpa                    |
-| (sich) unterwerfend | submissive, to submit |                             |
 | Tierrollenspiel     | Pet play              | musi (unpa) sama jan soweli |
 | Top                 | Top                   | jan wawa, jan pana          |
 | Unterwerfung        | Submission            |                             |
 | Vulva               | Vulva                 | lupa unpa (?)               |
-| Brust               | Breast(s)             | nena mama (meli)            |
 
 
 ## Redewendungen / Phrases / toki kinki
@@ -75,4 +77,5 @@ Vorschläge willkommen / suggestions welcome / sona tawa ken toki ni li pona.
 | sicher, überlegt/vernünftig, einvernehmlich | safe, sane, consentual          | nasin awen, kon nasa ala, wile sama        |
 | Ich möchte deinen Arsch ficken              | I want to fuck your butt        | mi wile unpa e monsi sina                  |
 | Du darfst nicht ...                         | You're not allowed ...          | sina ken ala ...                           |
+| du gehörst mir                              | you are mine                    |                                            |
 
