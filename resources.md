@@ -18,6 +18,7 @@
 + [Toki Pona Sitelen Emoji](https://sites.google.com/view/sitelenemoji) - Toki pona words as emojis.
   + Different solution on [Omniglot](https://omniglot.com/conscripts/sitelenemoji.htm)
   + [codepen.io/tiencoffee/pen/NVmgxW](https://codepen.io/tiencoffee/pen/NVmgxW)
++ [Sitelen sitelen](https://www.jonathangabel.com/toki-pona/) - lots of infos and links about the Maya writing like hieroglyphs by Jonathan Gabel.
 
 ## Lessons & courses
 
