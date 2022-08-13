@@ -6,7 +6,7 @@
 
 | Deutsch       | English             | toki soweli poni | original english   |
 | ------------- | ------------------- | ---------------- | ------------------ |
-| Halt          | Stop                | pake             | Halt               |
+| Halt          | Stop                | pake, pini       | Halt               |
 | Vorwärts      | Forward             | tawa             | Go, forward        |
 | Rückwärts     | Backwards           | monsi            | backside           |
 | Links         | Left                | pilin            | heart (n)          |
@@ -16,3 +16,5 @@
 | Galopp        | Galopp              | mute             | many, much, plenty |
 | Zieh!         | Pull!               | pali a!          | work               |
 | OK, alles gut | all good (soothing) | ali e pona       | everything is good |
+
+*pake* is an inofficial word, that was discussed between *pu* and *ku*. But since animals are not considered to really *understand* human language, this won't make much difference.
