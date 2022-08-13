@@ -15,6 +15,7 @@
 + [reddit](https://www.reddit.com/search/?q=toki+pona&type=sr)
   + [main toki pona group](https://www.reddit.com/r/tokipona/) plus Wiki, FAQ, links to Discord servers, etc.
 + [Robbie Antenesse's "ku" dictionary](https://robbie.antenesse.net/tokipona/)
++ [Translator en<->tp](https://glosbe.com/en/mis_tok)
 + [Toki Pona Sitelen Emoji](https://sites.google.com/view/sitelenemoji) - Toki pona words as emojis.
   + Different solution on [Omniglot](https://omniglot.com/conscripts/sitelenemoji.htm)
   + [codepen.io/tiencoffee/pen/NVmgxW](https://codepen.io/tiencoffee/pen/NVmgxW)
