@@ -4,7 +4,7 @@
 
 (Toki pona words to lead a small animal (e.g. dog))
 
-| Deutsch       | English             | toki soweli poni | original english   |
+| Deutsch       | English             | toki soweli lili | original english   |
 | ------------- | ------------------- | ---------------- | ------------------ |
 | Halt          | Stop                | pake, pini       | Halt               |
 | Sitz          | sit                 | lon              | place              |
