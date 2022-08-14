@@ -14,6 +14,7 @@ Feel free to copy, contribute, whatever.
 + [General resources & links](resources.md)
 + [kinky dictionary in the making](toki-kinki.md)
 + [toki pona for pet / pony play](toki-pi-soweli-poni.md)
++ [toki pona for dog play](toki-pi-soweli-lili.md)
 + Cheat sheet [small](Cheat%20Sheet%20large/) (2-page) and [large](Cheat%20Sheet%20large/) (12+ page) with sources and PDF.
 
 ---
