@@ -13,7 +13,7 @@
 | Rechts        | Right               | luka             | hand (n)           |
 | Schritt       | Step                | lili             | small, slow        |
 | Trab          | Jog, Canter         | meso             | medium             |
-| Galopp        | Galopp              | mute             | many, much, plenty |
+| Galopp        | Galopp              | alasa            | hunt               |
 | Zieh!         | Pull!               | o pali!, pali a! | work               |
 | OK, alles gut | all good (soothing) | ali e pona       | everything is good |
 
