@@ -1,4 +1,4 @@
-# Toki pona für/for Dogplay (smal animals) / nimi pi toki pona tawa lawa e soweli lili
+# Toki pona für/for Dogplay (small animals) / nimi pi toki pona tawa lawa e soweli lili
 
 (Toki pona Wörter, um ein kleines Tier (z.B. Hund) zu führen)
 
